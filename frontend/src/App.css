@@ -449,7 +449,7 @@ body {
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(105, 105, 105, 0.2);
-  height:auto;
+  /* height:auto; */
   margin: 3rem 2rem;
   cursor: pointer;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -458,7 +458,7 @@ body {
 }
 
 .course-slider__course--img {
-  height:auto;
+  /* height:auto; */
 }
   .course-slider__courses {
     grid-template-columns: 1fr 1fr;
