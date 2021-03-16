@@ -5,7 +5,7 @@ function CartTotal() {
     const {total} = useSelector((state) =>state.cartReducer )
     return (
         <div className = 'cart-items__total'>
-            Total : ${total}
+            Total : Ksh{total}
         </div>
     )
 }

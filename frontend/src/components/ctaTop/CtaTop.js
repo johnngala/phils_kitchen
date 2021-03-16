@@ -12,20 +12,21 @@ const  CtaTop = (props) => {
             <div className = "cta-top__img"/>
             <div className = "cta-top__textbox">
                 <div className = "cta-top__textbox--headline">
-                    Automate your Future
+                   Phil's Kitchen
                 </div>
                 <div className = "cta-top__textbox--story">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Welcome to Phil's Kitchen.We offer the tastiest meals 
+                    all of Town!!
                 </div>
-                <div className = "cta-top__textbox--story">
+                {/* <div className = "cta-top__textbox--story">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </div>
-                <input 
+                </div> */}
+                {/* <input 
                  className = "cta-top__textbox--button"
                  type = "submit"
                  value ="Learn Automation"
                  onClick = { () => navProduct()}
-                />
+                /> */}
             </div>
         </div>
     )

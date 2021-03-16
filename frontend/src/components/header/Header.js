@@ -2,12 +2,11 @@ import React ,{Fragment} from 'react'
 import HeaderCenter from './HeaderCenter'
 import HeaderLeft from './HeaderLeft'
 import HeaderRight from './HeaderRight'
-import CheckUser from '../../utils/CheckUser'
+
 
 const  Header = () => {
     return (
         <Fragment>
-            <CheckUser />
         <div className = "header">
             <HeaderLeft />
             <HeaderCenter />

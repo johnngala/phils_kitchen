@@ -15,13 +15,23 @@ const Contact = () => {
 
                 <div className = 'contact__top__section'>
                     <img src = 'imgs/email.png' alt = 'email' className = 'contact__top__section__img'/>
-                    <p  className = 'contact__top__paragraph'>example@example.com</p>
+                    <p  className = 'contact__top__paragraph'>philskitchen12@gmail.com</p>
                 </div>
 
                 <div className = 'contact__top__section'>
                     <img src = 'imgs/phone.png' alt = 'phone' className = 'contact__top__section__img'/>
                     <p  className = 'contact__top__paragraph'>+2547200400800 </p>
-                </div>   
+                </div>  
+
+                 <div className = 'contact__top__section'>
+                    <img src = 'imgs/instagram.png' alt = 'phone' className = 'contact__top__section__img'/>
+                    <p  className = 'contact__top__paragraph'>Phil's_Kitchen</p>
+                </div> 
+
+                <div className='contact__top__section'>
+                    <img src='imgs/youtube.png' alt='youtube' className='contact__top__section__img' />
+                    <p className='contact__top__paragraph'>Phil's_Kitchen</p>
+                </div>
             </div>
 
             <div className = 'contact__bottom'>

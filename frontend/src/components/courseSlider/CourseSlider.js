@@ -25,14 +25,14 @@ const  CourseSlider = () => {
 
     const dispatch = useDispatch()
     
-    courseCopy.push({
-        title : 'See More Courses' ,
-        price:' varies',
-        author : 'our authors',
-        img : require('../../images/books.jpg').default, //default added
-        position: 99999999,
-        id : 99999999
-   })
+//     courseCopy.push({
+//         title : 'See More Courses' ,
+//         price:' varies',
+//         author : 'our authors',
+//         img : require('../../images/books.jpg').default, //default added
+//         position: 99999999,
+//         id : 99999999
+//    })
 
     
     const changeCourseCountForward = (e) => {
@@ -60,14 +60,14 @@ const  CourseSlider = () => {
             alt = {el.name} />
             <div className = "course-slider__course--bottom">
                 <div className ="course-slider__course--bottom--title">{el.title}</div>
-                <div className ="course-slider__course--bottom--author">by : {el.author}</div>
+                {/* <div className ="course-slider__course--bottom--author">by : {el.author}</div> */}
 
                 { el.saleOptIn && sale ? <div className ="course-slider__course--bottom--price">
-                 <span className = "course-slider__course--bottom--strike"> ${el.price}</span>
-                 Sale ${el.price * sale}
+                 <span className = "course-slider__course--bottom--strike"> Ksh{el.price}</span>
+                 Sale Ksh{el.price * sale}
                   </div>
                 :
-                <div className ="course-slider__course--bottom--price">${el.price}</div> 
+                <div className ="course-slider__course--bottom--price">Price Ksh{el.price}</div> 
                 }
 
                 {el.position === 99999999 ? <div /> :
@@ -100,7 +100,7 @@ const  CourseSlider = () => {
 
     return (
         <div className = "course-slider">
-            <div className = "course-slider__title">Top Courses</div> 
+            <div className = "course-slider__title">Our Cuisines</div> 
             <div className = "course-slider__underline" />
 
             <div className = "course-slider__container" >

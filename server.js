@@ -2,8 +2,6 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const mongoose = require('mongoose')
-const User = require('./schemas/User')
-const authRoutes = require( './routes/authRoutes')
 const { sendError} = require('./frontend/src/utils/ErrorHandler')
 const cookieParser = require('cookie-parser')
 
@@ -21,12 +19,19 @@ app.use(cors({
 app.use(bodyParser.json())
 app.use(cookieParser())
 
-app.use( '/api/v1/auth' , authRoutes)
-
 app.use((err ,res ,req ,next) => {
     sendError(err , res )
 }) 
 
+//added
+if(process.env.NODE_ENV = "production"){
+    //set static folder
+    app.use(express.static("frontend/build"))
+
+    app.get("*" , (req,res) => {
+        res.sendFile(path.resolve(__dirname , "../frontend" , "build" , "index.html"))
+    })
+}
 
 const DB = process.env.DATABASE
 

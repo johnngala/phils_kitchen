@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../images/logo.svg'
+import phils_kitchen from '../../images/phils_kitchen.jpg'
 import {withRouter} from 'react-router-dom'
 
 const  HeaderLeft = (props) => {
@@ -8,7 +8,7 @@ const  HeaderLeft = (props) => {
     }
     return (
         <div className = "header__left">
-            <img className = "header__left--image" src = {logo} 
+            <img className = "header__left--image" src = {phils_kitchen} 
             onClick = { () => navHome()}
             alt = "Logo"/>
         </div>

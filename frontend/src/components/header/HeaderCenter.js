@@ -1,10 +1,9 @@
 import React from 'react'
-import Search from '../search/Search'
 
 const  HeaderCenter = () => {
     return (
         <div>
-            <Search />
+            <h1>Phil's Kitchen</h1>
         </div>
     )
 }
