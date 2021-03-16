@@ -458,7 +458,7 @@ body {
 }
 
 .course-slider__course--img {
-  height:30rem;
+  height:10rem;
 }
   .course-slider__courses {
     grid-template-columns: 1fr 1fr;
