@@ -44,7 +44,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  height: 7rem;
+  height: 10rem;
   background-color: #ffffff;
   box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.15);
   overflow: hidden;
@@ -208,11 +208,12 @@ body {
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(105, 105, 105, 0.2);
-  height: 40rem;
+  height:80%;
   margin: 3rem 2rem;
   cursor: pointer;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transition: all 0.4s;
+  overflow-y: hidden;
 }
 .course-slider__course:hover {
   transform: translateY(-2px);
@@ -231,7 +232,7 @@ body {
   display: -webkit-box;
   text-align: center;
   height: 4.5rem;
-  margin: 0.7rem;
+  padding: 2rem;
   font-size: 1.6rem;
   font-weight: 600;
   -webkit-line-clamp: 2;
@@ -439,6 +440,8 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
+
+
 }
 @media (max-width: 450px) {
   .course-slider__courses {
