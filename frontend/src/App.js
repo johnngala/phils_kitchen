@@ -5,6 +5,7 @@ import { BrowserRouter as Router , Switch ,Route} from 'react-router-dom'
 import {Provider} from 'react-redux'
 import store from './redux/store'
 
+import NotFound from './pages/NotFound'
 import Header from './components/header/Header';
 import Landing from './pages/Landing';
 import Footer from './components/footer/Footer'
@@ -25,6 +26,7 @@ function App() {
             <Route path ='/cart' ><ShoppingCart/></Route>
             <Route path ='/contact' ><Contact/></Route>
             <Route path ='/about' ><About/></Route>
+            <Route> <NotFound/></Route>
           </Switch>
         </div>
         <Footer/>
