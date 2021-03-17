@@ -23,14 +23,22 @@ const Contact = () => {
                     <p  className = 'contact__top__paragraph'>+2547200400800 </p>
                 </div>  
 
-                 <div className = 'contact__top__section'>
-                    <img src = 'imgs/instagram.png' alt = 'phone' className = 'contact__top__section__img'/>
-                    <p  className = 'contact__top__paragraph'>Phil's_Kitchen</p>
-                </div> 
+                 <div className='contact__top__section'>
+                    <a href = "https://www.instagram.com/phils_kitchen/" className = "contact__top__section--link">
+                        <img src='imgs/instagram.png' alt='youtube' className='contact__top__section__img' /> 
+                    </a>
+                    <a href = "https://www.instagram.com/phils_kitchen/" className = "contact__top__section--link">
+                        <p className='contact__top__paragraph'>Phil's_Kitchen</p>
+                    </a>
+                </div>
 
                 <div className='contact__top__section'>
-                    <img src='imgs/youtube.png' alt='youtube' className='contact__top__section__img' />
-                    <p className='contact__top__paragraph'>Phil's_Kitchen</p>
+                    <a href = "https://www.youtube.com/channel/UCsLjh1M9hA-4NZGp5nlqGoA" className = "contact__top__section--link">
+                        <img src='imgs/youtube.png' alt='youtube' className='contact__top__section__img' /> 
+                    </a>
+                    <a href = "https://www.youtube.com/channel/UCsLjh1M9hA-4NZGp5nlqGoA" className = "contact__top__section--link">
+                        <p className='contact__top__paragraph'>Phil's_Kitchen</p>
+                    </a>
                 </div>
             </div>
 
