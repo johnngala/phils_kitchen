@@ -60,8 +60,7 @@ const  CourseSlider = () => {
             alt = {el.name} />
             <div className = "course-slider__course--bottom">
                 <div className ="course-slider__course--bottom--title">{el.title}</div>
-                {/* <div className ="course-slider__course--bottom--author">by : {el.author}</div> */}
-
+               
                 { el.saleOptIn && sale ? <div className ="course-slider__course--bottom--price">
                  <span className = "course-slider__course--bottom--strike"> Ksh{el.price}</span>
                  Sale Ksh{el.price * sale}
@@ -79,10 +78,10 @@ const  CourseSlider = () => {
                         />
                         
                         <div  className = 'course-slider__course--bottom--button2' >
-                            <a href="https://wa.me/0722882815"  className = 'course-slider__course--bottom--button2--link '>
+                            <a href="https://wa.me/+254722882815"  className = 'course-slider__course--bottom--button2--link '>
                                 <img src = 'imgs/whatsapp-medium.png' alt='whatsapp' className = 'course-slider__course--bottom--button2--image'/> 
                             </a>
-                            <a href="https://wa.me/0722882815" className = 'course-slider__course--bottom--button2--link '>
+                            <a href="https://wa.me/+254722882815" className = 'course-slider__course--bottom--button2--link '>
                             <p className = 'course-slider__course--bottom--button2--paragraph'>Contact to Buy</p>
                             </a>
                         </div>
