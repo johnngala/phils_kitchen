@@ -4,6 +4,8 @@ const cors = require('cors')
 const mongoose = require('mongoose')
 const { sendError} = require('./frontend/src/utils/ErrorHandler')
 const cookieParser = require('cookie-parser')
+//added
+const path = require('path');
 
 require('dotenv').config();
 
