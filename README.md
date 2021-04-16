@@ -1,6 +1,7 @@
 # phils_kitchen
 
-Hello
+Hello,
+
 Welcome to Phil's Kitchen.
 
 This is a website of a local restaurant.
